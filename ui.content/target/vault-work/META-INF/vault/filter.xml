@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/dp-headless" mode="merge"/>
+    <filter root="/content/dp-headless" mode="merge"/>
+    <filter root="/content/dam/dp-headless/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/dp-headless" mode="merge"/>
+</workspaceFilter>

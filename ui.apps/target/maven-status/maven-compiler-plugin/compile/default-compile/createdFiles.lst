@@ -1,0 +1,11 @@
+org\apache\sling\scripting\sightly\apps\dp__002d__headless\clientlibs\clientlib__002d__react\resources\index__002e__html.class
+org\apache\sling\scripting\sightly\apps\dp__002d__headless\components\xfpage\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\dp__002d__headless\components\helloworld\helloworld__002e__html.class
+org\apache\sling\scripting\sightly\apps\dp__002d__headless\components\custom__002d__heading\helloworld__002e__html.class
+org\apache\sling\scripting\sightly\apps\dp__002d__headless\components\titleText\titletext__002e__html.class
+org\apache\sling\scripting\sightly\apps\dp__002d__headless\components\footer\footer__002e__html.class
+org\apache\sling\scripting\sightly\apps\dp__002d__headless\components\imagecard\imagecard__002e__html.class
+org\apache\sling\scripting\sightly\apps\dp__002d__headless\components\page\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\dp__002d__headless\components\page\customheaderlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\dp__002d__headless\components\xfpage\body__002e__html.class
+org\apache\sling\scripting\sightly\apps\dp__002d__headless\components\xfpage\customheaderlibs__002e__html.class

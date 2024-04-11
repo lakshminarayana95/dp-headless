@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Properties"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <columns
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <tabs
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/tabs">
+                        <items jcr:primaryType="nt:unstructured">
+                            <connectwithus
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Connect With Us"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <connectwithustext
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Connect With Us Text"
+                                        name="./connectwithustext"/>
+                                    <emailtext
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Email Text"
+                                        name="./emailtext"/>
+                                    <social-icons
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                        composite="{Boolean}true"
+                                        fieldLabel="Social Icons">
+                                        <field
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                                            name="./socialIcons">
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <iconPath
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                    fieldLabel="Icon Path"
+                                                    name="./iconPath"/>
+                                                <iconLink
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                    fieldLabel="Icon Link"
+                                                    name="./iconLink"/>
+                                            </items>
+                                        </field>
+                                    </social-icons>
+                                    <copywritetext
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Copywrite Text"
+                                        name="./copywritetext"/>
+                                </items>
+                            </connectwithus>
+                            <usefullinks
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Useful Links"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <usefullinkstext
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Useful Links Text"
+                                        name="./usefullinkstext"/>
+                                    <usefulinksinner
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                        composite="{Boolean}true"
+                                        fieldLabel="Useful Links">
+                                        <field
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                                            name="./usefullinks">
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <usefullinktitle
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldLabel="Useful Link Title"
+                                                    name="./usefullinktitle"/>
+                                                <usefullinkpath
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldLabel="Useful Link Path"
+                                                    name="./usefullinkpath"/>
+                                            </items>
+                                        </field>
+                                    </usefulinksinner>
+                                </items>
+                            </usefullinks>
+                            <products
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Products"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <productstext
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Products text"
+                                        name="./productstext"/>
+                                    <productslinks
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                        composite="{Boolean}true"
+                                        fieldLabel="Products">
+                                        <field
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                                            name="./products">
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <producttitle
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldLabel="Product title"
+                                                    name="./producttitle"/>
+                                                <productlink
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldLabel="Product Link"
+                                                    name="./productlink"/>
+                                            </items>
+                                        </field>
+                                    </productslinks>
+                                </items>
+                            </products>
+                        </items>
+                    </tabs>
+                </items>
+            </columns>
+        </items>
+    </content>
+</jcr:root>

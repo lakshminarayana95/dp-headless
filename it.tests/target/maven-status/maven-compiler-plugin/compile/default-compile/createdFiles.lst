@@ -1,0 +1,4 @@
+com\dp\headless\it\tests\PublishPageValidationIT.class
+com\dp\headless\it\tests\CreatePageIT.class
+com\dp\headless\it\tests\GetPageIT.class
+com\dp\headless\it\tests\HtmlUnitClient.class

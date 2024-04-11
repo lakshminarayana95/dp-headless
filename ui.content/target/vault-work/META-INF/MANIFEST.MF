@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: Dp Headless - UI content
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.dp.headless:dp-headless.react.ui.content:1.0.0-S
+ NAPSHOT
+Content-Package-Description: UI content package for Dp Headless
+Content-Package-Dependencies: com.dp.headless:dp-headless.react.ui.apps:
+ 1.0.0-SNAPSHOT
+Content-Package-Dependencies-Locations: com.dp.headless:dp-headless.reac
+ t.ui.apps:1.0.0-SNAPSHOT=maven:com.dp.headless:dp-headless.react.ui.app
+ s:1.0.0-SNAPSHOT:zip
+Content-Package-Roots: /conf/dp-headless,/content/dam/dp-headless/asset.
+ jpg,/content/dp-headless,/content/experience-fragments/dp-headless
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/dp-headless/clientlibs"/>
+    <filter root="/apps/dp-headless/components"/>
+    <filter root="/apps/dp-headless/i18n"/>
+</workspaceFilter>

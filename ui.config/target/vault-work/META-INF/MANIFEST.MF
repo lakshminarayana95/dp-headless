@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: Dp Headless - UI config
+Implementation-Version: 1.0.0-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.dp.headless:dp-headless.react.ui.config:1.0.0-SN
+ APSHOT
+Content-Package-Description: UI config package for Dp Headless
+Content-Package-Roots: /apps/dp-headless/osgiconfig
+

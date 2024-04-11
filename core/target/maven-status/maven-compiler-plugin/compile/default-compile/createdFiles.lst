@@ -1,0 +1,15 @@
+com\dp\headless\core\models\FooterModel.class
+com\dp\headless\core\models\HelloWorldModel.class
+com\dp\headless\core\models\ImageCardModel.class
+com\dp\headless\core\models\FooterModelImpl.class
+com\dp\headless\core\schedulers\package-info.class
+com\dp\headless\core\schedulers\SimpleScheduledTask$Config.class
+com\dp\headless\core\listeners\package-info.class
+com\dp\headless\core\schedulers\SimpleScheduledTask.class
+com\dp\headless\core\models\package-info.class
+com\dp\headless\core\listeners\SimpleResourceListener.class
+com\dp\headless\core\models\ImageCardModelImpl.class
+com\dp\headless\core\servlets\package-info.class
+com\dp\headless\core\filters\package-info.class
+com\dp\headless\core\filters\LoggingFilter.class
+com\dp\headless\core\servlets\SimpleServlet.class

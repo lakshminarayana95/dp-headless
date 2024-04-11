@@ -1,0 +1,7 @@
+com\dp\headless\core\testcontext\AppAemContext$1.class
+com\dp\headless\core\filters\LoggingFilterTest.class
+com\dp\headless\core\schedulers\SimpleScheduledTaskTest.class
+com\dp\headless\core\testcontext\AppAemContext.class
+com\dp\headless\core\models\HelloWorldModelTest.class
+com\dp\headless\core\listeners\SimpleResourceListenerTest.class
+com\dp\headless\core\servlets\SimpleServletTest.class
