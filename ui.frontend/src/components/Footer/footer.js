@@ -20,7 +20,7 @@ const Footer = () => {
 
   const fetchFooterData = async () => {
     try {
-      const response = await fetch('http://localhost:4502/content/dp-headless/us/en/home/jcr:content/root/responsivegrid/footer_2021495158.model.json');
+      const response = await fetch('/data/footer.json');
       const data = await response.json();
       if (data) {
         setFooterItems(data);

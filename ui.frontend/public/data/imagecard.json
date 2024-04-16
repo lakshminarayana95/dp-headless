@@ -1,0 +1,25 @@
+{
+    "images": [
+    {
+    "jcr:primaryType": "nt:unstructured",
+    "imagepath": "/content/dam/dp-headless/images/HP_BestsellingDeals_SC_10_5April24_nsqfot.jpg",
+    "imagealt": "alt text"
+    },
+    {
+    "jcr:primaryType": "nt:unstructured",
+    "imagepath": "/content/dam/dp-headless/images/HP_BestsellingDeals_SC_10_5April24_nsqfot.jpg",
+    "imagealt": "alt text"
+    },
+    {
+    "jcr:primaryType": "nt:unstructured",
+    "imagepath": "/content/dam/dp-headless/images/HP_BestsellingDeals_SC_10_5April24_nsqfot.jpg",
+    "imagealt": "alt text"
+    },
+    {
+    "jcr:primaryType": "nt:unstructured",
+    "imagepath": "/content/dam/dp-headless/images/HP_BestsellingDeals_SC_10_5April24_nsqfot.jpg",
+    "imagealt": "alt text"
+    }
+    ],
+    "imageCardText": "Image card text"
+    }

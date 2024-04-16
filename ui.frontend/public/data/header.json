@@ -1,0 +1,97 @@
+{
+    "jcr:primaryType":"nt:unstructured",
+    "jcr:createdBy":"admin",
+    "searchPlaceHolder":"what are you looking for ?",
+    "jcr:lastModifiedBy":"admin",
+    "brandLogo":"/content/dam/vationheadlesspoc/logo.svg",
+    "profileIconPath":"/content/dam/vationheadlesspoc/user.png",
+    "closeIcon":"/content/dam/vationheadlesspoc/close.png",
+    "jcr:created":"Fri Mar 22 2024 15:30:55 GMT+0530",
+    "mainHeading":"Shop by Category",
+    "locationImagePath":"/content/dam/vationheadlesspoc/delivery-box.png",
+    "cartIconPath":"/content/dam/vationheadlesspoc/like.png",
+    "jcr:lastModified":"Tue Apr 02 2024 10:54:22 GMT+0530",
+    "sling:resourceType":"vationheadlesspoc/components/header",
+    "searchIconPath":"/content/dam/vationheadlesspoc/contacts.png",
+    "menuIconItems":{
+       "jcr:primaryType":"nt:unstructured",
+       "item0":{
+          "jcr:primaryType":"nt:unstructured",
+          "headingIcon":"/content/dam/vationheadlesspoc/crown.png",
+          "heading":"Exclusive At Croma",
+          "headingNavigationUrl":"https://www.croma.com/croma-store/b/b-0082"
+       },
+       "item1":{
+          "jcr:primaryType":"nt:unstructured",
+          "headingIcon":"/content/dam/vationheadlesspoc/medal-.png",
+          "heading":"Top Brands",
+          "subtitles":{
+             "jcr:primaryType":"nt:unstructured",
+             "item0":{
+                "jcr:primaryType":"nt:unstructured",
+                "subHeading":"All Top Brands",
+                "subheadingNavigationUrl":"https://www.croma.com/searchB?q=Top%20Brands%3Arelevance&text=Top%20Brands"
+             },
+             "item1":{
+                "jcr:primaryType":"nt:unstructured",
+                "subHeading":"Amazon",
+                "subheadingNavigationUrl":"https://www.croma.com/amazon-store/b/b-0683"
+             },
+             "item2":{
+                "jcr:primaryType":"nt:unstructured",
+                "subHeading":"Atomberg",
+                "subheadingNavigationUrl":"<a class=\"tablinks link\" href=\"/atomberg-store/b/b-1169\"><h5 class=\"text l1-sublist-item\" style=\"width: 30rem;\">Atomberg</h5></a>"
+             },
+             "item3":{
+                "jcr:primaryType":"nt:unstructured",
+                "subHeading":"Apple",
+                "subheadingNavigationUrl":"https://www.croma.com/apple-store/b/b-0025"
+             },
+             "item4":{
+                "jcr:primaryType":"nt:unstructured",
+                "subHeading":"category-Bajaj",
+                "subheadingNavigationUrl":"https://www.croma.com/bajaj-store/b/b-0037"
+             },
+             "item5":{
+                "jcr:primaryType":"nt:unstructured",
+                "subHeading":"Blue Star",
+                "subheadingNavigationUrl":"https://www.croma.com/bluestar-store/b/b-0587"
+             }
+          }
+       }
+    },
+    "menuItems":{
+       "jcr:primaryType":"nt:unstructured",
+       "item0":{
+          "jcr:primaryType":"nt:unstructured",
+          "heading":"Televisions & Accessories",
+          "headingNavigationUrl":"https://www.croma.com/televisions-accessories/c/997",
+          "subHeading":{
+             "jcr:primaryType":"nt:unstructured",
+             "item0":{
+                "jcr:primaryType":"nt:unstructured",
+                "subHeading":"All Televisions & Accessories",
+                "subHeadingNavigationUrl":"https://www.croma.com/televisions-accessories/c/997"
+             },
+             "item1":{
+                "jcr:primaryType":"nt:unstructured",
+                "subHeading":"LED TVs",
+                "subHeadingNavigationUrl":"https://www.croma.com/televisions-accessories/led-tvs/c/392",
+                "nestedSubHeadings":{
+                   "jcr:primaryType":"nt:unstructured",
+                   "item0":{
+                      "jcr:primaryType":"nt:unstructured",
+                      "nestedSubHeadingNavigationUrl":"https://www.croma.com/televisions-accessories/led-tvs/c/392",
+                      "nestedSubHeading":"All LED TVs"
+                   },
+                   "item1":{
+                      "jcr:primaryType":"nt:unstructured",
+                      "nestedSubHeadingNavigationUrl":"https://www.croma.com/televisions-accessories/led-tvs/qled-tvs/c/897",
+                      "nestedSubHeading":"QLED TVs"
+                   }
+                }
+             }
+          }
+       }
+    }
+ }

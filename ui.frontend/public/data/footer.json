@@ -1,0 +1,183 @@
+{
+  "connectwithustext": "Connect With Us",
+  "copywritetext": "© Copyright 2023 Croma. All rights reserved",
+  "products": [
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "productlink": "https://www.croma.com/televisions-accessories/c/997",
+      "producttitle": "Televisions & Accessories"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "productlink": "https://www.croma.com/home-appliances/c/5",
+      "producttitle": "Home Appliances"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "productlink": "https://www.croma.com/phones-wearables/c/1",
+      "producttitle": "Phones & Wearables"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "productlink": "https://www.croma.com/computers-tablets/c/3",
+      "producttitle": "Computers & Tablets"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "productlink": "https://www.croma.com/kitchen-appliances/c/864",
+      "producttitle": "Kitchen Appliances"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "productlink": "https://www.croma.com/audio-video/c/292",
+      "producttitle": "Audio & Video"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "productlink": "https://www.croma.com/health-fitness/c/11",
+      "producttitle": "Health & Fitness"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "productlink": "https://www.croma.com/grooming-wellness/c/1021",
+      "producttitle": "Grooming & Personal Care"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "productlink": "https://www.croma.com/cameras-accessories/c/2",
+      "producttitle": "Cameras & Accessories"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "productlink": "https://www.croma.com/smart-devices/c/3002",
+      "producttitle": "Smart Devices"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "productlink": "https://www.croma.com/smart-devices/c/3002",
+      "producttitle": "Gaming"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "productlink": "https://www.croma.com/accessories/c/8",
+      "producttitle": "Accessories"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "productlink": "https://www.croma.com/searchB?q=Top%20Brands%3Arelevance&text=Top%20Brands",
+      "producttitle": "Top Brands"
+    }
+  ],
+  "emailid": "enter your email",
+  "socialmediaicons": [
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "iconLink": "https://www.youtube.com/user/CromaRetail",
+      "iconPath": "https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "iconLink": "https://www.facebook.com/CromaRetail/",
+      "iconPath": "https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "iconLink": "https://www.instagram.com/croma.retail/",
+      "iconPath": "https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "iconLink": "https://www.linkedin.com/company/infiniti-retail-limited-croma---a-tata-enterprise",
+      "iconPath": "https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "iconLink": "https://twitter.com/cromaretail?s=11",
+      "iconPath": "https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png"
+    }
+  ],
+  "usefulLinksText": "USEFUL LINKS",
+  "productsText": "PRODUCTS",
+  "usefulLinks": [
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/about-croma",
+      "usefullinktitle": "About Croma"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/helpAndSupport",
+      "usefullinktitle": "Help And Support"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/faq",
+      "usefullinktitle": "FAQs"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/lp-buying-guide",
+      "usefullinktitle": "Buying Guide"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/cancellation-and-return",
+      "usefullinktitle": "Return Policy"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/bulk-order-and-gift-card-enquiry?cm_source=HPBulkEnquiry&cm_medium=Footer&cm_campaign=BulkEnquir",
+      "usefullinktitle": "B2B Orders"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/store?location=default",
+      "usefullinktitle": "Store Locator"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/lp-croma-e-waste",
+      "usefullinktitle": "E-Waste"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/franchise-opportunity",
+      "usefullinktitle": "Franchise Opportunity"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/site-map",
+      "usefullinktitle": "Site Map"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/careers-at-croma",
+      "usefullinktitle": "Careers At Croma"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/terms-of-use",
+      "usefullinktitle": "Terms Of Use"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/disclaimer",
+      "usefullinktitle": "Disclaimer"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/privacy-policy",
+      "usefullinktitle": "Privacy Policy"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/unboxed",
+      "usefullinktitle": "Unboxed"
+    },
+    {
+      "jcr:primaryType": "nt:unstructured",
+      "usefullinkpath": "https://www.croma.com/giftcard",
+      "usefullinktitle": "Gift Card"
+    }
+  ]
+}

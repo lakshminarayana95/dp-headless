@@ -22,6 +22,7 @@ import './TitleText/TitleText';
 import './CustomHeading/CustomHeading';
 import './ImageCard/ImageCard';
 import './Footer/footer';
+import './Header/header';
 
 
 import {MapTo} from '@adobe/aem-react-editable-components';
