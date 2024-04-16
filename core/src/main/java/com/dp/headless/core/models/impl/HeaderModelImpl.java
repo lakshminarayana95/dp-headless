@@ -15,7 +15,7 @@ import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
 @Model(adaptables = { SlingHttpServletRequest.class }, adapters = { HeaderModelImpl.class,
         ComponentExporter.class
-}, resourceType = "vation-headless/components/header")
+}, resourceType = "dp-headless/components/header")
 @Exporter(name = "jackson", extensions = "json")
 public class HeaderModelImpl implements HeaderModel {
 
