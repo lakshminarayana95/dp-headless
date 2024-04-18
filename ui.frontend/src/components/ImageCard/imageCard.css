@@ -5,10 +5,11 @@
   }
 
   .card-container .card {
-    width: 23%;
+    /* width: 23%;  */
+    width: 25%;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
     padding: 20px;
     box-sizing: border-box;
   }

@@ -18,10 +18,20 @@ header {
   .menu-bar span {
     color: #fff;
     font-size: 15px;
-    /* margin-bottom: 3px; */
+    margin-bottom: 3px;
     display: block;
     margin-left: 5px;
   }
+
+  .menu-icon img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .menu-txt {
+    padding-bottom: 10px
+  }
+
   .close {
     display: none;
   }
@@ -50,6 +60,12 @@ header {
   .pick-location {
     cursor: pointer;
   }
+
+  .pick-location img{
+    width: 20px;
+    height:20px;
+  }
+
   .overlay {
     display: none;
     position: fixed;

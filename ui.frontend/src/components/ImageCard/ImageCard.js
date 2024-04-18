@@ -39,7 +39,7 @@ const ImageCard = () => {
                             {imageCardItems?.images?.map((item, index)=>(
                                 <div class="card" key={index}>
                                     <img src={item?.imagepath} alt={`Card ${index}`} key={index}/>
-                                    <p>{item?.imagealt}</p>
+                                    {/* <p>{item?.imagealt}</p> */}
                                 </div>
                                 )
                             )}
