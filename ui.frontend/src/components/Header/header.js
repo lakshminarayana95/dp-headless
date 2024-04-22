@@ -5,6 +5,8 @@ import { FaSearch } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FaCartShopping } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
+import { FaUser } from "react-icons/fa6";
+import { FaTimes } from "react-icons/fa";
 
 require('./header.css')
 
@@ -22,18 +24,24 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
+    console.log('clicked')
     setisModalOpen(!isModalOpen);
     setMenuOpen(!menuOpen);
 
   };
 
-  const [headerItems, setHeaderItems] = useState([]);
+  // const closeModal = () => {
+  //   setisModalOpen(false);
+  //   setMenuOpen(false);
+  // };
 
-  // let menuItemList = []; 
-  let menuItemList;
-  let nestedMenuItemList;
+  const [headerItems, setHeaderItems] = useState([]);
+  const [profileItems, setProfileItems] = useState([]);
+  const [searchValue, setSearchValue] = useState('');
+
   useEffect(() => {
     fetchHeaderData();
+    fetchProfileData()
   }, []);
 
   const fetchHeaderData = async () => {
@@ -51,7 +59,29 @@ const Header = () => {
     }
   };
 
-  function renderIconMenuItem(menuItem) {
+  const fetchProfileData = async () => {
+    try {
+      const response = await fetch('/data/profile.json');
+      const data = await response.json();
+      console.log('data', data)
+      if (data) {
+        setProfileItems(data);
+
+      }
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
+
+  const handleInputChange = (event) => {
+    setSearchValue(event.target.value);
+  };
+
+  const clearSearch = () => {
+    setSearchValue('');
+  };
+
+  const renderIconMenuItem = (menuItem) =>{
     return (
       <li className="grey">
         <a href={menuItem.headingNavigationUrl} className={menuItem.subtitles ? "submenu": "icon-menu"}>
@@ -78,7 +108,7 @@ const Header = () => {
     );
   }
 
-  function renderMenuItem(menuItem) {
+  const renderMenuItem = (menuItem) => {
     return (
       <li>
         <a href={menuItem.headingNavigationUrl} className="submenu2">
@@ -104,7 +134,7 @@ const Header = () => {
     );
   }
 
-  function renderNestedMenuItem(nestedMenuItem) {
+  const renderNestedMenuItem = (nestedMenuItem) => {
        if(nestedMenuItem && typeof nestedMenuItem === 'object') {
         {Object.keys(nestedMenuItem).map((subItemKey) => {
           const subItem = nestedMenuItem[subItemKey];  
@@ -129,15 +159,18 @@ const Header = () => {
             <div class="menu-bar" id="openModalBtn">
             <div class="menu-icon">
             {!menuOpen && (
-              <><RxHamburgerMenu onClick={toggleMenu}/> Menu</>
+              <><RxHamburgerMenu onClick={toggleMenu}/> </>
             )}
             {menuOpen && (
-              <img src={headerItems.closeIcon} alt="Close" class="close" onClick={toggleMenu}/>
-              // <IoClose onClick={toggleMenu} />
-            )}
+              // <img src={headerItems.closeIcon} alt="Close" class="close" onClick={closeModal}/>
+              // <span className="close" onClick={toggleMenu}>
+                <IoClose onClick={toggleMenu}/> 
+                // </span>
+              )}
               </div>
+              <span>Menu</span>
             </div>
-            {true && (
+            {menuOpen && (
           <div id="modalMenu" class="modalMenu">
           <div class="modal-content">
             <span class="close" id="closeModalBtn">&times;</span>
@@ -162,14 +195,50 @@ const Header = () => {
           </div>
         </div>
         )} 
-            <div class="search">
-            <input type="search" placeholder={headerItems.searchPlaceHolder} id="inputField" oninput="handleInput()"/>
-            <i class="fa fa-search" id="icon"></i>
+          <div class="search">
+            <input type="search" 
+            placeholder={headerItems.searchPlaceHolder} 
+            id="inputField"
+            value={searchValue}
+            onChange={handleInputChange}
+            />
+            {/* <i class="fa fa-search" id="icon"></i> */}
             {/* <img src={headerItems.searchIconPath} alt="" class="search" /> */}
-            <FaSearch className="searchIcon"/>
-
+            {/* <FaSearch className="searchIcon"/> */}
+            {searchValue.length > 0 ? (
+                <FaTimes className="closeIcon" onClick={clearSearch} />
+              ) : (
+                <FaSearch className="searchIcon" />
+              )}
           </div>
 
+          <div class="location">
+            <div class="pick-location">
+              {/* <i class="fa-solid fa-location-dot"></i> */}
+              <img src={headerItems.locationImagePath}/>
+              <span>Location</span>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <div class="drop-btn">
+              <FaUser/>
+            </div>
+            <div class="dropdown-content">
+              {profileItems?.profile?.map((item)=>{
+                return (<a href="#">
+                <div class="item-icon">
+                  <img src={item.imagepath} alt="" />
+                  <div class="item-text">
+                    <span>{item.header}</span>
+                    <span>{item.description}</span>
+                  </div>
+                </div>
+              </a>)
+              })}            
+            </div>
+          </div>
+           
           <div class="cart">
             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
             {/* <img src={headerItems.cartIconPath} alt="" class="search" /> */}
