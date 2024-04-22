@@ -20,24 +20,32 @@ const HeaderEditConfig = {
 };
 
 const Header = () => {
+  const [headerItems, setHeaderItems] = useState([]);
+  const [profileItems, setProfileItems] = useState([]);
+  const [searchValue, setSearchValue] = useState('');
   const [isModalOpen, setisModalOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [showLocationModal, setShowLocationModal] = useState(false);
 
   const toggleMenu = () => {
-    console.log('clicked')
     setisModalOpen(!isModalOpen);
     setMenuOpen(!menuOpen);
 
   };
 
+  const openLocationModal = () => {
+    console.log('clicked')
+    setShowLocationModal(true);
+  };
+
+  const closeLocationModal = () => {
+    setShowLocationModal(false);
+  };
   // const closeModal = () => {
   //   setisModalOpen(false);
   //   setMenuOpen(false);
   // };
-
-  const [headerItems, setHeaderItems] = useState([]);
-  const [profileItems, setProfileItems] = useState([]);
-  const [searchValue, setSearchValue] = useState('');
+ 
 
   useEffect(() => {
     fetchHeaderData();
@@ -162,10 +170,8 @@ const Header = () => {
               <><RxHamburgerMenu onClick={toggleMenu}/> </>
             )}
             {menuOpen && (
-              // <img src={headerItems.closeIcon} alt="Close" class="close" onClick={closeModal}/>
-              // <span className="close" onClick={toggleMenu}>
+              // <img src={headerItems.closeIcon} alt="Close" class="close" onClick={toggleMenu}/>
                 <IoClose onClick={toggleMenu}/> 
-                // </span>
               )}
               </div>
               <span>Menu</span>
@@ -213,13 +219,32 @@ const Header = () => {
           </div>
 
           <div class="location">
-            <div class="pick-location">
+            <div class="pick-location" onClick={openLocationModal}>
               {/* <i class="fa-solid fa-location-dot"></i> */}
               <img src={headerItems.locationImagePath}/>
               <span>Location</span>
             </div>
           </div>
-
+          {showLocationModal && (
+          <div class="overlay" id="modalOverlay">
+            <div class="locationmodal">
+              <span class="close-modal">
+                <IoClose onClick={closeLocationModal}/> 
+              </span>
+              <h3>SELECT YOUR LOCATION</h3>
+              <p>
+                To Check Products & Delivery Options available at your location
+              </p>
+              <input type="text" placeholder="Enter Pincode" />
+              <button type="button">Get Current Location</button>
+              <h3>OR</h3>
+              <div class="curved-btn">
+                <button type="button">SIGN IN TO SELECT ADDRESS</button>
+                <button type="button">CONTINUE</button>
+              </div>
+            </div>
+          </div>
+          )}
           <div class="dropdown">
             <div class="drop-btn">
               <FaUser/>

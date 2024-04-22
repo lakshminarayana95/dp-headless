@@ -23,9 +23,11 @@ header {
     margin-left: 5px;
   }
 
-  .menu-icon img {
+  .menu-icon svg {
     width: 30px;
     height: 30px;
+    position: relative;    
+    z-index: 1001; 
   }
 
   .menu-txt {
@@ -67,7 +69,7 @@ header {
   }
 
   .overlay {
-    display: none;
+    /* display: none; */
     position: fixed;
     top: 0;
     left: 0;
@@ -76,6 +78,7 @@ header {
     background: rgba(0, 0, 0, 0.5);
     justify-content: center;
     align-items: center;
+    z-index: 1000;
   }
   
   .locationmodal {
@@ -86,6 +89,11 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: center;
     position: relative;
+  /* position: fixed;  */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001; 
   }
   .close-modal {
     cursor: pointer;
@@ -97,10 +105,12 @@ header {
   }
   .locationmodal h3 {
     font-weight: normal;
+    color: #fff;
   }
   .locationmodal p {
     width: 80%;
     margin: 0 auto;
+    color: #fff;
   }
   .locationmodal input {
     color: #fff;

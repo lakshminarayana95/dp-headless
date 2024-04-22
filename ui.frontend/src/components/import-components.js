@@ -24,7 +24,6 @@ import './ImageCard/ImageCard';
 import './Footer/footer';
 import './Header/header';
 import './StackBanner/StackBanner';
-import './Author/Author';
 
 
 
