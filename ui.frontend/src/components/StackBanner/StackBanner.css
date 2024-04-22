@@ -1,0 +1,11 @@
+.stack-banner-container{
+    display: flex;
+}
+.stack-banner-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stack-banner-slide img{
+    width: 97%;
+}

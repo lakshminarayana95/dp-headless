@@ -23,6 +23,9 @@ import './CustomHeading/CustomHeading';
 import './ImageCard/ImageCard';
 import './Footer/footer';
 import './Header/header';
+import './StackBanner/StackBanner';
+import './Author/Author';
+
 
 
 import {MapTo} from '@adobe/aem-react-editable-components';
