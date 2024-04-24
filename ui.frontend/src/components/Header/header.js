@@ -26,6 +26,7 @@ const Header = () => {
   const [isModalOpen, setisModalOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [showLocationModal, setShowLocationModal] = useState(false);
+  const [currentLocation, setCurrentLocation] = useState(null); // Store current location here
 
   const toggleMenu = () => {
     setisModalOpen(!isModalOpen);
@@ -154,9 +155,24 @@ const Header = () => {
           )
        })}  
       }
-     
-    
   }
+
+  const getCurrentLocation = () => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const { latitude, longitude } = position.coords;
+          setCurrentLocation({ latitude, longitude });
+        },
+        (error) => {
+          console.error('Error getting location:', error.message);
+        }
+      );
+    } else {
+      console.error('Geolocation is not supported by this browser.');
+    }
+  };
+
   return (
     <div className="container-fluid with-header">
         <div className='container'>
@@ -212,7 +228,7 @@ const Header = () => {
             {/* <img src={headerItems.searchIconPath} alt="" class="search" /> */}
             {/* <FaSearch className="searchIcon"/> */}
             {searchValue.length > 0 ? (
-                <FaTimes className="closeIcon" onClick={clearSearch} />
+                null
               ) : (
                 <FaSearch className="searchIcon" />
               )}
@@ -222,7 +238,7 @@ const Header = () => {
             <div class="pick-location" onClick={openLocationModal}>
               {/* <i class="fa-solid fa-location-dot"></i> */}
               <img src={headerItems.locationImagePath}/>
-              <span>Location</span>
+              <span>{currentLocation && (currentLocation)}</span>
             </div>
           </div>
           {showLocationModal && (
@@ -236,7 +252,7 @@ const Header = () => {
                 To Check Products & Delivery Options available at your location
               </p>
               <input type="text" placeholder="Enter Pincode" />
-              <button type="button">Get Current Location</button>
+              <button type="button" onClick={getCurrentLocation}>Get Current Location</button>
               <h3>OR</h3>
               <div class="curved-btn">
                 <button type="button">SIGN IN TO SELECT ADDRESS</button>

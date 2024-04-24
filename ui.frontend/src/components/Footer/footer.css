@@ -1,6 +1,9 @@
 footer{
     color: #FFF;
-    margin: 10px 0;
+    /* margin: 10px 0; */
+    position: relative;
+    display: block;
+    overflow: hidden;
 }
 footer ul{
     list-style-type: none;
@@ -10,9 +13,14 @@ footer ul{
 }
 footer ul li{
     border-right: 1px solid #fff;
-    padding: 0 30px 0 30px;
+    padding: 0 14px 0 14px;
     margin: 10px 0;
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 1.27;
+    color: #333;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all .3s ease;
 }
 footer ul li:first-child{
     padding: 0;
@@ -23,6 +31,11 @@ footer ul li:last-child{
 }
 footer p{
     color: #fff;
+    font-size: 14px;
+    line-height: 1.27;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all .3s ease;
 }
 footer input[type=text]{
     border-radius: 5px;
@@ -57,10 +70,12 @@ footer .usefulLinks ul:last-child{
     display: inline-block;
 }
 footer .usefulLinks ul li{
-padding: 0;
+    padding-left: 14px;
+    padding-right: 5px;
 }
 footer .usefulLinks ul li a{
     color: #FFF;
+    text-decoration: none;
 }
 footer .usefulLinks ul li a:hover{
     text-decoration: none;

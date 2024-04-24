@@ -2,43 +2,43 @@
     "profile": [
     {
     "jcr:primaryType": "nt:unstructured",
-    "imagepath": "images/user.png",
+    "imagepath": "/images/user.png",
     "header": "My Profile",
     "description": "Edit your basic details"
     },
     {
     "jcr:primaryType": "nt:unstructured",
-    "imagepath": "images/addressbook.png",
+    "imagepath": "/images/addressbook.png",
     "header": "My Address",
     "description": "Manage your saved addresses"
     },
     {
     "jcr:primaryType": "nt:unstructured",
-    "imagepath": "images/delivery-box.png",
+    "imagepath": "/images/delivery-box.png",
     "header": "My Orders",
     "description": "View,track,cancel orders and buy again"
     },
     {
     "jcr:primaryType": "nt:unstructured",
-    "imagepath": "images/award.png",
+    "imagepath": "/images/award.png",
     "header": "My Privilege Offers",
     "description": "Exclusive offers for you"
     },
     {
     "jcr:primaryType": "nt:unstructured",
-    "imagepath": "images/like.png",
+    "imagepath": "/images/like.png",
     "header": "My Wishlist",
     "description": "Have a look at your favourite products"
     },
     {
     "jcr:primaryType": "nt:unstructured",
-    "imagepath": "images/responsive.png",
+    "imagepath": "/images/responsive.png",
     "header": "My Devices & Plans",
     "description": "Manage your devices and plans"
     },
     {
     "jcr:primaryType": "nt:unstructured",
-    "imagepath": "images/speech-bubble.png",
+    "imagepath": "/images/speech-bubble.png",
     "header": "My Service Requests",
     "description": "Manage complaints,feedbacks and service requests"
     }

@@ -1,11 +1,14 @@
 .stack-banner-container{
     display: flex;
+    margin-left: 20px;
 }
 .stack-banner-slide{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 25px
 }
 .stack-banner-slide img{
     width: 97%;
+    border-radius: 10px;
 }

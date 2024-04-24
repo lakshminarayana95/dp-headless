@@ -1,0 +1,243 @@
+{
+    "id": "carousel-993b19ab47",
+    "autoplay": true,
+    "delay": 5000,
+    "autopauseDisabled": false,
+    "controlsPrepended": false,
+    ":itemsOrder": [
+      "item_1713257969518",
+      "item_1713257987320",
+      "item_1713257991191",
+      "item_1713257995175",
+      "item_1713258001594",
+      "item_1713258012529",
+      "item_1713258028791",
+      "item_1713258036430"
+    ],
+    ":items": {
+      "item_1713257969518": {
+        "id": "image-cbcceddc45",
+        "alt": "1",
+        "src": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713257969518.coreimg.png/1713853257983/1.png",
+        "link": "https://www.croma.com/",
+        "srcUriTemplate": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713257969518.coreimg{.width}.png/1713853257983/1.png",
+        "lazyThreshold": 0,
+        "dmImage": false,
+        "uuid": "b5cf46e6-a733-4c6e-b8a8-ecd012facf6d",
+        "widths": [],
+        "lazyEnabled": false,
+        "dataLayer": {
+          "image-cbcceddc45": {
+            "@type": "dp-headless/components/image",
+            "repo:modifyDate": "2024-04-16T09:17:03Z",
+            "xdm:linkURL": "https://www.croma.com/",
+            "image": {
+              "repo:id": "b5cf46e6-a733-4c6e-b8a8-ecd012facf6d",
+              "repo:modifyDate": "2024-04-23T06:20:57Z",
+              "@type": "image/png",
+              "repo:path": "/content/dam/dp-headless/carousal/1.png"
+            }
+          }
+        },
+        ":type": "dp-headless/components/image",
+        "cq:panelTitle": "image1"
+      },
+      "item_1713257987320": {
+        "id": "image-99af747b10",
+        "alt": "2",
+        "src": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713257987320.coreimg.png/1713853254928/2.png",
+        "link": "https://www.croma.com/",
+        "srcUriTemplate": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713257987320.coreimg{.width}.png/1713853254928/2.png",
+        "lazyThreshold": 0,
+        "dmImage": false,
+        "uuid": "95d44bcb-1c47-4368-a044-359c46a672a5",
+        "widths": [],
+        "lazyEnabled": false,
+        "dataLayer": {
+          "image-99af747b10": {
+            "@type": "dp-headless/components/image",
+            "repo:modifyDate": "2024-04-16T09:17:18Z",
+            "xdm:linkURL": "https://www.croma.com/",
+            "image": {
+              "repo:id": "95d44bcb-1c47-4368-a044-359c46a672a5",
+              "repo:modifyDate": "2024-04-23T06:20:54Z",
+              "@type": "image/png",
+              "repo:path": "/content/dam/dp-headless/carousal/2.png"
+            }
+          }
+        },
+        ":type": "dp-headless/components/image",
+        "cq:panelTitle": "image2"
+      },
+      "item_1713257991191": {
+        "id": "image-88cce9a9e7",
+        "alt": "3",
+        "src": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713257991191.coreimg.png/1713853253998/3.png",
+        "link": "https://www.croma.com/",
+        "srcUriTemplate": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713257991191.coreimg{.width}.png/1713853253998/3.png",
+        "lazyThreshold": 0,
+        "dmImage": false,
+        "uuid": "322b3777-7497-4ebe-8e4d-5a9e02226405",
+        "widths": [],
+        "lazyEnabled": false,
+        "dataLayer": {
+          "image-88cce9a9e7": {
+            "@type": "dp-headless/components/image",
+            "repo:modifyDate": "2024-04-16T09:17:41Z",
+            "xdm:linkURL": "https://www.croma.com/",
+            "image": {
+              "repo:id": "322b3777-7497-4ebe-8e4d-5a9e02226405",
+              "repo:modifyDate": "2024-04-23T06:20:53Z",
+              "@type": "image/png",
+              "repo:path": "/content/dam/dp-headless/carousal/3.png"
+            }
+          }
+        },
+        ":type": "dp-headless/components/image",
+        "cq:panelTitle": "image3"
+      },
+      "item_1713257995175": {
+        "id": "image-c11129766c",
+        "alt": "4",
+        "src": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713257995175.coreimg.png/1713853258999/4.png",
+        "link": "https://www.croma.com/",
+        "srcUriTemplate": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713257995175.coreimg{.width}.png/1713853258999/4.png",
+        "lazyThreshold": 0,
+        "dmImage": false,
+        "uuid": "7e93d580-44ba-4170-a5d8-9eab1958f43f",
+        "widths": [],
+        "lazyEnabled": false,
+        "dataLayer": {
+          "image-c11129766c": {
+            "@type": "dp-headless/components/image",
+            "repo:modifyDate": "2024-04-16T09:17:52Z",
+            "xdm:linkURL": "https://www.croma.com/",
+            "image": {
+              "repo:id": "7e93d580-44ba-4170-a5d8-9eab1958f43f",
+              "repo:modifyDate": "2024-04-23T06:20:58Z",
+              "@type": "image/png",
+              "repo:path": "/content/dam/dp-headless/carousal/4.png"
+            }
+          }
+        },
+        ":type": "dp-headless/components/image",
+        "cq:panelTitle": "image4"
+      },
+      "item_1713258001594": {
+        "id": "image-a02deba6f7",
+        "alt": "5",
+        "src": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713258001594.coreimg.png/1713853257367/5.png",
+        "link": "https://www.croma.com/",
+        "srcUriTemplate": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713258001594.coreimg{.width}.png/1713853257367/5.png",
+        "lazyThreshold": 0,
+        "dmImage": false,
+        "uuid": "d096db86-dc5e-468f-bf20-7606b2e11abe",
+        "widths": [],
+        "lazyEnabled": false,
+        "dataLayer": {
+          "image-a02deba6f7": {
+            "@type": "dp-headless/components/image",
+            "repo:modifyDate": "2024-04-16T09:18:19Z",
+            "xdm:linkURL": "https://www.croma.com/",
+            "image": {
+              "repo:id": "d096db86-dc5e-468f-bf20-7606b2e11abe",
+              "repo:modifyDate": "2024-04-23T06:20:57Z",
+              "@type": "image/png",
+              "repo:path": "/content/dam/dp-headless/carousal/5.png"
+            }
+          }
+        },
+        ":type": "dp-headless/components/image",
+        "cq:panelTitle": "image5"
+      },
+      "item_1713258012529": {
+        "id": "image-87ef17b1c1",
+        "alt": "6",
+        "src": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713258012529.coreimg.png/1713853256749/6.png",
+        "srcUriTemplate": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713258012529.coreimg{.width}.png/1713853256749/6.png",
+        "lazyThreshold": 0,
+        "dmImage": false,
+        "uuid": "fda90992-d0fc-4733-bea3-7b8131ab45eb",
+        "widths": [],
+        "lazyEnabled": false,
+        "dataLayer": {
+          "image-87ef17b1c1": {
+            "@type": "dp-headless/components/image",
+            "repo:modifyDate": "2024-04-16T09:15:08Z",
+            "image": {
+              "repo:id": "fda90992-d0fc-4733-bea3-7b8131ab45eb",
+              "repo:modifyDate": "2024-04-23T06:20:56Z",
+              "@type": "image/png",
+              "repo:path": "/content/dam/dp-headless/carousal/6.png"
+            }
+          }
+        },
+        ":type": "dp-headless/components/image",
+        "cq:panelTitle": "image6"
+      },
+      "item_1713258028791": {
+        "id": "image-ae9a2f2824",
+        "alt": "7",
+        "src": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713258028791.coreimg.png/1713853254032/7.png",
+        "link": "https://www.croma.com/",
+        "srcUriTemplate": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713258028791.coreimg{.width}.png/1713853254032/7.png",
+        "lazyThreshold": 0,
+        "dmImage": false,
+        "uuid": "2f94d7e6-9dec-4ca7-96bf-37c5652f20b2",
+        "widths": [],
+        "lazyEnabled": false,
+        "dataLayer": {
+          "image-ae9a2f2824": {
+            "@type": "dp-headless/components/image",
+            "repo:modifyDate": "2024-04-16T09:18:36Z",
+            "xdm:linkURL": "https://www.croma.com/",
+            "image": {
+              "repo:id": "2f94d7e6-9dec-4ca7-96bf-37c5652f20b2",
+              "repo:modifyDate": "2024-04-23T06:20:54Z",
+              "@type": "image/png",
+              "repo:path": "/content/dam/dp-headless/carousal/7.png"
+            }
+          }
+        },
+        ":type": "dp-headless/components/image",
+        "cq:panelTitle": "image7"
+      },
+      "item_1713258036430": {
+        "id": "image-10089002a0",
+        "alt": "8",
+        "src": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713258036430.coreimg.png/1713853258776/8.png",
+        "link": "https://www.croma.com/",
+        "srcUriTemplate": "/content/dp-headless/us/en/home/_jcr_content/root/responsivegrid/carousel/item_1713258036430.coreimg{.width}.png/1713853258776/8.png",
+        "lazyThreshold": 0,
+        "dmImage": false,
+        "uuid": "8aba737c-8dac-4de7-8c18-6a948f27d2a5",
+        "widths": [],
+        "lazyEnabled": false,
+        "dataLayer": {
+          "image-10089002a0": {
+            "@type": "dp-headless/components/image",
+            "repo:modifyDate": "2024-04-16T09:18:54Z",
+            "xdm:linkURL": "https://www.croma.com/",
+            "image": {
+              "repo:id": "8aba737c-8dac-4de7-8c18-6a948f27d2a5",
+              "repo:modifyDate": "2024-04-23T06:20:58Z",
+              "@type": "image/png",
+              "repo:path": "/content/dam/dp-headless/carousal/8.png"
+            }
+          }
+        },
+        ":type": "dp-headless/components/image",
+        "cq:panelTitle": "image8"
+      }
+    },
+    "dataLayer": {
+      "carousel-993b19ab47": {
+        "shownItems": [
+          "carousel-993b19ab47-item-cbcceddc45"
+        ],
+        "@type": "dp-headless/components/carousel",
+        "repo:modifyDate": "2024-04-16T09:01:46Z"
+      }
+    },
+    ":type": "dp-headless/components/carousel"
+  }

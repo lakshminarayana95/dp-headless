@@ -24,7 +24,8 @@ import './ImageCard/ImageCard';
 import './Footer/footer';
 import './Header/header';
 import './StackBanner/StackBanner';
-
+import './Carousel/carousel';
+import './ImageBanner/ImageBanner';
 
 
 import {MapTo} from '@adobe/aem-react-editable-components';
