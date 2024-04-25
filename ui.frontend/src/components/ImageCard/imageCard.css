@@ -2,6 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 10px;
   }
 
   .card-container .card {

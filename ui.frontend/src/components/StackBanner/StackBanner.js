@@ -38,6 +38,7 @@ const StackBanner = () => {
                 <a href={slide?.link}><img src={slide?.fileReference} alt={slide?.alt} /></a>
               </div>
             ))}
+            
           </div>
         </section>
       </div>

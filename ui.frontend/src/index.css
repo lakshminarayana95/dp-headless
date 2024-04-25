@@ -84,3 +84,80 @@ body {
   margin: 0 auto;
   padding: 0px;
 }
+
+.cmp-carousel__content {
+  position: relative;
+}
+
+.cmp-carousel__actions {
+  position: absolute;
+  top: 40%;
+  left: 0px;
+  width: 100%;
+}
+
+
+
+button.cmp-carousel__action.cmp-carousel__action--play.cmp-carousel__action--disabled {
+  display: none;
+}
+
+button.cmp-carousel__action.cmp-carousel__action--pause {
+  display: none;
+}
+.cmp-carousel__action--previous{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 0 8px 8px 0;
+  background: rgba(37, 37, 37, .3) !important;
+  border: none;
+  cursor: pointer;
+}
+.cmp-carousel__action--next{
+  width: 50px;
+  height: 50px;
+  float: right;
+  right: 0 !important;
+  border-radius: 8px 0 0 8px;
+  background: rgba(37, 37, 37, .3) !important;
+  border: none;
+  cursor: pointer;
+}
+
+.cmp-carousel__action--previous span.cmp-carousel__action-icon::before{
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font: var(--fa-font-solid);
+  content: "\f104"; /* Unicode for the left chevron icon */
+  font-family: "FontAwesome", sans-serif; /* Assuming you're using Font Awesome */
+  font-size: 48px; /* Adjust size as needed */
+  color: #fff; /* Adjust color as needed */
+  position: absolute; /* Position the icon */
+  top: 50%; /* Adjust vertically */
+  left: 10px; /* Adjust horizontally */
+  transform: translateY(-50%);  
+}
+.cmp-carousel__action--next span.cmp-carousel__action-icon::before{
+  content: "\f105"; /* Unicode for the left chevron icon */
+  font-family: "FontAwesome", sans-serif; /* Assuming you're using Font Awesome */
+  font-size: 48px; /* Adjust size as needed */
+  color: #fff; /* Adjust color as needed */
+  position: absolute; /* Position the icon */
+  top: 50%; /* Adjust vertically */
+  right: 10px; /* Adjust horizontally */
+  transform: translateY(-50%);  
+}
+.cmp-carousel__action--previous span.cmp-carousel__action-text {
+  display: none;
+}
+.cmp-carousel__action--next span.cmp-carousel__action-text {
+  display: none;
+}
+
+ol.cmp-carousel__indicators {
+  position: absolute;
+  bottom: 10%;
+  left: 42%;
+}

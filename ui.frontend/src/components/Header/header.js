@@ -3,7 +3,7 @@ import React, { useState, useEffect, Component } from 'react';
 import {MapTo} from '@adobe/aem-react-editable-components';
 import { FaSearch } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { FaCartShopping } from "react-icons/fa6";
+// import { FaCartShopping } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
 import { FaUser } from "react-icons/fa6";
 import { FaTimes } from "react-icons/fa";
@@ -283,7 +283,7 @@ const Header = () => {
           <div class="cart">
             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
             {/* <img src={headerItems.cartIconPath} alt="" class="search" /> */}
-            <FaCartShopping />
+            {/* <FaCartShopping /> */}
 
           </div>
           </header>

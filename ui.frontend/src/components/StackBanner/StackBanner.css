@@ -1,6 +1,7 @@
 .stack-banner-container{
     display: flex;
     margin-left: 20px;
+    margin-right: 20px;
 }
 .stack-banner-slide{
     display: flex;
