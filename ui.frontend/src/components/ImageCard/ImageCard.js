@@ -1,56 +1,57 @@
+import React, { Component } from 'react';
+import { MapTo } from '@adobe/aem-react-editable-components';
+import './imageCard.css';
 
-import React, {useState, useEffect} from 'react';
-import {MapTo} from '@adobe/aem-react-editable-components';
-require('./imageCard.css')
-
- const ImageCardEditConfig = {
- 
-    emptyLabel: 'ImageCard',
- 
-    isEmpty: function(props) {
-        return !props || !props.src || props.src.trim().length < 1;
-    }
+const ImageCardEditConfig = {
+  emptyLabel: 'ImageCard',
+  isEmpty: function (props) {
+    return !props || !props.src || props.src.trim().length < 1;
+  }
 };
- 
-const ImageCard = () => {
-    const [imageCardItems, setImageCardItems] = useState([]);
 
-    useEffect(() => {
-        fetchImageCardData();
-      }, []);
-    
-      const fetchImageCardData = async () => {
-        try {
-        //  const response = await fetch('http://localhost:4502/content/dp-headless/us/en/home/jcr:content/root/responsivegrid/imagecard.model.json');
-        const response = await fetch('/data/imagecard.json')  
-        const data = await response.json();
-          if (data) {
-            setImageCardItems(data);
-          }
-        } catch (error) {
-          console.error('Error fetching data:', error);
-        }
-      };
-        return (
-            <div className="container-fluid">
-                <div className='container'>
-                    <section className='imagecard'>
-                        <div class="card-container">                            
-                            {imageCardItems?.images?.map((item, index)=>(
-                                <div class="card" key={index}>
-                                    <img src={item?.imagepath} alt={`Card ${index}`} key={index}/>
-                                    {/* <p>{item?.imagealt}</p> */}
-                                </div>
-                                )
-                            )}
-                        </div>
-                    </section>
-                </div>
-            </div>
-        );
+class ImageCard extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      imageCardItems: []
+    };
+  }
+
+  componentDidMount() {
+    this.fetchImageCardData();
+  }
+
+  fetchImageCardData = async () => {
+    try {
+      const response = await fetch('/data/imagecard.json');
+      const data = await response.json();
+      if (data) {
+        this.setState({ imageCardItems: data });
+      }
+    } catch (error) {
+      console.error('Error fetching data:', error);
     }
- 
- 
-// Mapping ImageCard component to AEM component with ImageCardEditConfig
+  };
+
+  render() {
+    const { imageCardItems } = this.state;
+
+    return (
+      <div className="container-fluid">
+        <div className="container">
+          <section className="imagecard">
+            <div className="card-container">
+              {imageCardItems?.images?.map((item, index) => (
+                <div className="card" key={index}>
+                  <img src={item?.imagepath} alt={`Card ${index}`} key={index} />
+                </div>
+              ))}
+            </div>
+          </section>
+        </div>
+      </div>
+    );
+  }
+}
+
 export default MapTo('dp-headless/components/imagecard')(ImageCard, ImageCardEditConfig);
- 

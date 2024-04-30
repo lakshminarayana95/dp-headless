@@ -38,7 +38,7 @@ const ImageBanner = () => {
                         <div class="banner-container">                            
                             
                                 <div class="banner" >
-                                    <p>Testing Banner</p> 
+                                    <h3>{imageBannerItems?.imagecardtext}</h3> 
                                     <img src={imageBannerItems?.imagepath}/>
                                     {/* <p>{item?.imagealt}</p> */}
                                 </div>
